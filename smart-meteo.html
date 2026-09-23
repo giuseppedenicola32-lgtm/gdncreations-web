@@ -13,9 +13,9 @@
 .smart-hero{padding:72px 0 38px;background:linear-gradient(135deg,#eef8ff,#f7fbf7)}
 .smart-hero h1{margin-bottom:10px}.smart-hero p{max-width:780px;font-size:1.12rem;line-height:1.7}
 .smart-content{padding:48px 0 70px}.smart-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin:28px 0 44px}.smart-box{background:#fff;border-radius:18px;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,.07)}.smart-box h3{margin-top:0}.smart-box li{margin:.45rem 0}
-.smart-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:26px 0 42px}.smart-photo{background:#fff;border-radius:18px;padding:12px;box-shadow:0 10px 30px rgba(0,0,0,.08)}.smart-photo img{display:block;width:100%;height:auto;border-radius:12px}.smart-photo p{margin:10px 4px 4px;text-align:center;font-weight:600}
+.smart-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:26px 0 42px}.smart-photo{background:#fff;border-radius:16px;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.08);min-height:180px}.smart-photo img{display:block;width:100%;height:auto;border-radius:10px}.smart-photo p{margin:9px 4px 3px;text-align:center;font-weight:600;font-size:.95rem}.photo-loading{aspect-ratio:4/3;background:#eef2f4;border-radius:10px}
 .smart-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.catalog-box{margin-top:40px;padding:28px;background:#fff;border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.07)}
-@media(max-width:800px){.smart-grid,.smart-gallery{grid-template-columns:1fr}}
+@media(max-width:900px){.smart-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){.smart-grid,.smart-gallery{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -29,31 +29,28 @@
 <div class="smart-box"><h3>Connessa al tuo quotidiano</h3><p>Il pannello web consente di consultare dati e impostazioni da smartphone e computer collegati alla stessa rete locale.</p></div>
 <div class="smart-box"><h3>Personalizzazione aziendale</h3><p>Logo del cliente e pagina informativa dedicata, per omaggi aziendali, ricorrenze ed eventi.</p></div>
 </div>
-
-<h2>Foto della Smart Meteo Station</h2>
-<p>Immagini del prodotto estratte dal catalogo.</p>
+<h2>Galleria Smart Meteo Station</h2>
+<p>Le immagini qui sotto sono estratte dal catalogo del prodotto.</p>
 <div class="smart-gallery">
-  <div class="smart-photo">
-    <img src="https://raw.githubusercontent.com/giuseppedenicola32-lgtm/gdncreations/main/progetti/assets/meteo-main.jpg" alt="Smart Meteo Station - schermata principale">
-    <p>Schermata principale</p>
-  </div>
-  <div class="smart-photo">
-    <img src="https://raw.githubusercontent.com/giuseppedenicola32-lgtm/gdncreations/main/progetti/assets/meteo-wind.jpg" alt="Smart Meteo Station - rosa dei venti">
-    <p>Rosa dei venti</p>
-  </div>
+<div class="smart-photo"><div class="photo-loading"><img data-b64="assets/meteo-01.b64.txt" alt="Smart Meteo Station foto 1"></div><p>Foto 1</p></div>
+<div class="smart-photo"><div class="photo-loading"><img data-b64="assets/meteo-02.b64.txt" alt="Smart Meteo Station foto 2"></div><p>Foto 2</p></div>
+<div class="smart-photo"><div class="photo-loading"><img data-b64="assets/meteo-03.b64.txt" alt="Smart Meteo Station foto 3"></div><p>Foto 3</p></div>
+<div class="smart-photo"><div class="photo-loading"><img data-b64="assets/meteo-04.b64.txt" alt="Smart Meteo Station foto 4"></div><p>Foto 4</p></div>
+<div class="smart-photo"><div class="photo-loading"><img data-b64="assets/meteo-05.b64.txt" alt="Smart Meteo Station foto 5"></div><p>Foto 5</p></div>
+<div class="smart-photo"><div class="photo-loading"><img data-b64="assets/meteo-06.b64.txt" alt="Smart Meteo Station foto 6"></div><p>Foto 6</p></div>
+<div class="smart-photo"><div class="photo-loading"><img data-b64="assets/meteo-07.b64.txt" alt="Smart Meteo Station foto 7"></div><p>Foto 7</p></div>
+<div class="smart-photo"><div class="photo-loading"><img data-b64="assets/meteo-08.b64.txt" alt="Smart Meteo Station foto 8"></div><p>Foto 8</p></div>
+<div class="smart-photo"><div class="photo-loading"><img data-b64="assets/meteo-09.b64.txt" alt="Smart Meteo Station foto 9"></div><p>Foto 9</p></div>
 </div>
-
-<div class="catalog-box">
-<h2>Catalogo completo</h2>
-<p>Il catalogo Smart Meteo Station è disponibile come documento PDF scaricabile.</p>
-<div class="smart-actions">
-<a class="btn btn-primary" href="https://raw.githubusercontent.com/giuseppedenicola32-lgtm/gdncreations/main/progetti/Smart_Meteo_Station_Catalogo.pdf" target="_blank" rel="noopener">Scarica il catalogo PDF</a>
-<a class="btn btn-ghost" href="index.html#contatti">Richiedi informazioni</a>
-</div>
-</div>
+<div class="catalog-box"><h2>Catalogo completo</h2><p>Il catalogo Smart Meteo Station è disponibile come documento PDF scaricabile.</p><div class="smart-actions"><a class="btn btn-primary" href="https://raw.githubusercontent.com/giuseppedenicola32-lgtm/gdncreations/main/progetti/Smart_Meteo_Station_Catalogo.pdf" target="_blank" rel="noopener">Scarica il catalogo PDF</a><a class="btn btn-ghost" href="index.html#contatti">Richiedi informazioni</a></div></div>
 </div></section>
 </main>
 <footer class="site-footer"><div class="container"><p>&copy; <span id="year"></span> GDN Creations. Tutti i diritti riservati.</p></div></footer>
+<script>
+document.querySelectorAll('img[data-b64]').forEach(function(img){
+  fetch(img.dataset.b64,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error();return r.text();}).then(function(t){img.src='data:image/jpeg;base64,'+t.trim();img.parentElement.classList.remove('photo-loading');}).catch(function(){img.parentElement.innerHTML='<span style="display:block;padding:30px;text-align:center">Foto non disponibile</span>';});
+});
+</script>
 <script src="script.js"></script>
 </body>
 </html>
